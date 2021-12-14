@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frontend Mentor | Fylo data storage component</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main class="main">
+    <section class="card">
+      <section class="files">
+        <img src="assets/icons/logo.svg" alt="fylo logo" class="files__logo">
+        <div class="icons">
+          <div class="files__icon">
+            <img src="assets/icons/icon-document.svg" alt="document icon">
+          </div>
+          <div class="files__icon">
+            <img src="assets/icons/icon-folder.svg" alt="folder icon">
+          </div>
+          <div class="files__icon">
+            <img src="assets/icons/icon-upload.svg" alt="upload icon">
+          </div>
+        </div>
+      </section>
+      <section class="meter">
+        <p class="meter__text">You’ve used <span class="used-gb bold" id="used-gb">815</span> GB of your storage</p>
+        <div class="meter__bar">
+          <div class="bar" id="meter">
+            <div class="indicator">
+              <div id="circle-indicator" class="circle-indicator"></div>
+            </div>
+          </div>
+          <p class="meter__limit">
+            <span class="limit bold">0 GB</span>
+            <span class="limit bold">1000 GB</span></p>
+        </div>
+        <p class="meter__modal bold">
+          <span class="left-gb big" id="left-gb">185</span> gb left
+        </p>
+      </section>
+    </section>
+  </main>
+  
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/Joel-Development" target="_blank">Joel Sanchez</a>.
+  </footer>
+</body>
+</html>
