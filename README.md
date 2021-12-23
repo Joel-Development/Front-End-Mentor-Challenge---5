@@ -7,36 +7,21 @@ This is a solution to the [Fylo data storage component challenge on Frontend Men
 - [Overview](#overview)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-- [Author](#author)
+- [Built with](#built-with)
 
 ## Overview
 
 ### Screenshot
 
-<img src="./screenshots/desktop.png" alt="desktop design" style="max-width: 800px; width: 90%">
-
---- 
-
-<img src="./screenshots/mobile.png" alt="desktop design" style="height: 800px">
+![desktop design](./screenshots/desktop.png)
 
 ### Links
 
-- Solution URL: [Github](https://your-solution-url.com)
-- Live Site URL: [netlify](https://your-live-site-url.com)
+- Solution URL: [Github](https://github.com/Joel-Development/FrontEndMentor---Challenge-5)
 
-## My process
-
-### Built with
+## Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
 - Mobile-first workflow
-
-## Author
-
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
